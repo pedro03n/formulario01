@@ -8,7 +8,15 @@
 </head>
 <body>
     <script>
-        
+        alert("Voto Eleitoral de 2022.")
+        let nascimento =parseFloat(prompt("Insira sua idade: "))
+        if(nascimento <= 2004 && nascimento >=1952){
+            document.write("Seu voto é obrigatorio!");
+        }else if(nascimento <= 2006){
+            document.write("Seu voto é opcional!");
+        }else{
+            document.write("Não é necessário votar!")
+        }
     </script>
 </body>
 </html>
